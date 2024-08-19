@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Presentation</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Sarabun:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "Poppins", sans-serif;
+      }
+      body * {
+        font-family: "Poppins", sans-serif;
+      }
+      body *:lang(th) {
+        font-family: "Sarabun", sans-serif;
+      }
+      .navbar {
+        display: flex;
+        background-color: #333;
+        color: white;
+      }
+      .name {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      ul {
+        width: 100%;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        list-style: none;
+      }
+      ul li {
+        margin: 0 1rem;
+      }
+      ul li a {
+        color: white;
+        text-decoration: none;
+        padding: 0.5rem;
+        transition: background-color 0.3s ease, color 0.3s ease,
+          padding 0.3s ease;
+      }
+      ul li a:hover {
+        background-color: #555;
+        color: #ff0000;
+        padding: 0.5rem;
+        border-radius: 5px;
+      }
+      header {
+        height: 550px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: url(https://images.unsplash.com/photo-1626958390916-90be78b9bfe6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        background-size: cover;
+        background-position: center;
+      }
+      h2 {
+        font-size: 40px;
+      }
+      h3 {
+        font-size: 40px;
+        color: white;
+      }
+      p {
+        font-size: 20px;
+        margin-bottom: 15px;
+        text-align: left;
+      }
+      p a {
+        font-size: 16px;
+      }
+      .header-info {
+        text-align: center;
+        color: white;
+        padding: 20px;
+        border-radius: 10px;
+      }
+      .header-info img {
+        margin: 0 1rem;
+        width: 750px;
+        height: 500px;
+        padding: 1rem;
+      }
+      footer {
+        background-color: #333;
+        text-align: center;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+      }
+      .header-info a {
+        display: inline-block;
+        background-color: #423c3c;
+        color: white;
+        padding: 7px 10px;
+        margin-top: 10px;
+        text-decoration: none;
+        border-radius: 8px;
+        font-weight: bold;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: background-color 0.3s ease, transform 0.3s ease;
+      }
+
+      .header-info a:hover {
+        background-color: #ff4500;
+        transform: translateY(-2px);
+      }
+
+      .header-info a:active {
+        background-color: #cc3700;
+        transform: translateY(2px);
+      }
+      .under-info {
+        height: 2500px;
+        padding: 20px;
+        text-align: center;
+        background-color: #000000;
+      }
+
+      .under-info img {
+        margin: 10px auto;
+        width: 800px;
+        height: 700px;
+        padding: 1px;
+        height: auto;
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="navbar">
+      <div class="name">
+        <h1>Phitthayakorn Phitthayakul</h1>
+      </div>
+      <ul>
+        <li><a href="Web1.html">Home</a></li>
+        <li><a href="Web2.html">Experience</a></li>
+        <li><a href="Web3.html">Project</a></li>
+        <li><a href="Web4.html">Contact</a></li>
+    </ul>
+    </section>
+    <header>
+      <div class="header-info">
+        <h2>My Project</h2>
+        <p>
+          1. Melody button project
+          <a href="https://youtu.be/_FUzBEOjGqQ" class="header-btn"
+            >วิดีโอการนำเสนอ</a
+          >
+        </p>
+        <p>2. Python OpenCV Training</p>
+        <p>3. Python Object Detection with YOLO 2</p>
+        <p>4. Python basic Training</p>
+        <p>5. Python OpenCV and TensorFlow 2</p>
+        <p>
+          6. การปรับแต่งเสียงผ่านการใช้ filter bank ด้วยโปรแกรม MATLAB
+          <a
+            href="https://www.youtube.com/watch?v=XCHHHsVfoUs"
+            class="header-btn"
+            >วิดีโอการนำเสนอ</a
+          >
+        </p>
+        <p>7. สร้างวงจรสัญญาณเตือนไฟไหม้ด้วยโปรแกรม proteus 7</p>
+        <p></p>
+      </div>
+    </header>
+    <footer>
+      <p>&copy; 2024</p>
+    </footer>
+    <under>
+      <div class="under-info">
+        <h3>Certification</h3>
+        <img
+          src="image/LINE_ALBUM_Certificate_240209_1.jpg"
+          alt=""
+        />
+        <img
+          src="image/LINE_ALBUM_Certificate_240209_2.jpg"
+          alt=""
+        />
+        <img
+          src="image/LINE_ALBUM_Certificate_240209_3.jpg"
+          alt=""
+        />
+        <img
+          src="image/LINE_ALBUM_Certificate_240209_4.jpg"
+          alt=""
+        />
+      </div>
+    </under>
+  </body>
+</html>
